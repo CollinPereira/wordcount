@@ -1,0 +1,11 @@
+<h1>This is the count page</h1>
+
+{{words}}
+<br>
+{{length}}
+<br>
+{% for word,total in sorted_words %}
+
+{{word}}-{{total}}
+<br>
+{% endfor%}
